@@ -1,0 +1,7 @@
+@media (max-width: 1407) {
+    .main__cell-phones{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+}
