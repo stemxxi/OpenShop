@@ -1,7 +1,23 @@
-@media (max-width: 1407) {
-    .main__cell-phones{
-        display: flex;
-        flex-wrap: wrap;
-        
+@media (max-width: 376px) {
+   .navbar-nav{
+       flex-direction: initial;
+    }
+    
+    .nav-link{
+        font-size: 7px;
+        margin: 0;
+    }
+    .header__content{
+        margin-top: 20px !important;
+    }
+    .header__logo{
+        margin-right: 20px;
+    }
+    .logo{
+        display: none;
+    }
+    .p-2{
+        padding: 0 !important;
     }
 }
+    
