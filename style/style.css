@@ -95,6 +95,15 @@
     
 }
 
+.bottom-navigation{
+    margin-top: 10px;
+} 
+
+.header__afternav-link{
+    padding: 10px !important;
+}
+
+
 .header__btn{
     border: 1px solid #313131;
     box-sizing: border-box; 

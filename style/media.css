@@ -1,4 +1,10 @@
 @media (max-width: 376px) {
+
+    .container{
+        max-width: 375px;
+        width: 100%;
+        margin: 0 auto;
+    }
    .navbar-nav{
        flex-direction: initial;
     }
@@ -18,6 +24,41 @@
     }
     .p-2{
         padding: 0 !important;
+    }
+    .header__afternav-link{
+        margin-right: 5px;
+        letter-spacing: 0;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .header__logo{
+        margin-right: 0;
+
+    }
+    .header__btn{
+        width: 167px !important;
+        font-size: 11px;
+        line-height: 17px;
+        padding: 7px 9px 7px 9px;
+    }
+    .header__input{
+        max-width: 354px !important;
+        padding: 10px;
+        
+    }
+    .header__button-btn{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .header__btn::before{
+        font-size: 11px;
+    }
+    .header__nav-link{
+        font-size: 8px;
     }
 }
     
